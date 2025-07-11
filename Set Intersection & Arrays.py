@@ -1,0 +1,13 @@
+set1={1,2,3,4,5,6,7,7}
+print(set1)
+set2=(2,3,4,8,9)
+dif=set1.difference(set2)
+print(dif)
+sd=set1.symmetric_difference(set2)
+print(sd)
+setx={"green","blue"}
+sety={"blue","yellow"}
+inter=setx.intersection(sety)
+print(inter)
+union=setx.union(sety)
+print(union)
